@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>behavioral.interpreter.InterpreterClient</OriginalElement>
+  <nodes>
+    <node x="382.7857142857143" y="297.0">behavioral.interpreter.InterpreterClient</node>
+    <node x="193.99999999999994" y="123.0">behavioral.interpreter.AddExp</node>
+    <node x="0.0" y="123.0">behavioral.interpreter.MultiplyExp</node>
+    <node x="735.0" y="123.0">behavioral.interpreter.SubstractExp</node>
+    <node x="582.0" y="134.5">behavioral.interpreter.Number</node>
+    <node x="387.99999999999994" y="123.0">behavioral.interpreter.DivideExp</node>
+    <node x="360.49999999999994" y="0.0">behavioral.interpreter.Exp</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="behavioral.interpreter.InterpreterClient" target="behavioral.interpreter.AddExp">
+      <point x="-34.400000000000034" y="-26.5" />
+      <point x="434.38571428571424" y="267.0" />
+      <point x="280.99999999999994" y="267.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+    <edge source="behavioral.interpreter.AddExp" target="behavioral.interpreter.Exp">
+      <point x="43.5" y="-62.0" />
+      <point x="324.49999999999994" y="103.0" />
+      <point x="415.7222222222222" y="103.0" />
+      <point x="-15.777777777777771" y="26.5" />
+    </edge>
+    <edge source="behavioral.interpreter.InterpreterClient" target="behavioral.interpreter.SubstractExp">
+      <point x="68.79999999999995" y="-26.5" />
+      <point x="537.5857142857142" y="277.0" />
+      <point x="822.0" y="277.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+    <edge source="behavioral.interpreter.DivideExp" target="behavioral.interpreter.Exp">
+      <point x="-43.5" y="-62.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="behavioral.interpreter.SubstractExp" target="behavioral.interpreter.Exp">
+      <point x="43.5" y="-62.0" />
+      <point x="865.5" y="73.0" />
+      <point x="494.61111111111103" y="73.0" />
+      <point x="63.111111111111086" y="26.5" />
+    </edge>
+    <edge source="behavioral.interpreter.Number" target="behavioral.interpreter.Exp">
+      <point x="0.0" y="-50.5" />
+      <point x="648.5" y="93.0" />
+      <point x="463.0555555555555" y="93.0" />
+      <point x="31.555555555555543" y="26.5" />
+    </edge>
+    <edge source="behavioral.interpreter.InterpreterClient" target="behavioral.interpreter.MultiplyExp">
+      <point x="-68.80000000000001" y="-26.5" />
+      <point x="399.98571428571427" y="277.0" />
+      <point x="87.0" y="277.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+    <edge source="behavioral.interpreter.MultiplyExp" target="behavioral.interpreter.Exp">
+      <point x="-43.5" y="-62.0" />
+      <point x="43.5" y="73.0" />
+      <point x="368.38888888888886" y="73.0" />
+      <point x="-63.111111111111086" y="26.5" />
+    </edge>
+    <edge source="behavioral.interpreter.InterpreterClient" target="behavioral.interpreter.DivideExp">
+      <point x="0.0" y="-26.5" />
+      <point x="468.7857142857143" y="277.0" />
+      <point x="474.99999999999994" y="277.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+    <edge source="behavioral.interpreter.InterpreterClient" target="behavioral.interpreter.Number">
+      <point x="34.39999999999998" y="-26.5" />
+      <point x="503.18571428571425" y="267.0" />
+      <point x="648.5" y="267.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="454.5" y="175.0" />
+  <SelectedNodes>
+    <node>behavioral.interpreter.InterpreterClient</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

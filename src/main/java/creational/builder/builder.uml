@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>creational.builder</OriginalElement>
+  <nodes>
+    <node x="445.10532083757084" y="0.0">creational.builder.HouseBuildDirector</node>
+    <node x="1.105320837570801" y="0.0">creational.builder.ConcreteHouseBuilder</node>
+    <node x="221.1053208375708" y="0.0">creational.builder.House</node>
+    <node x="24.78990228887018" y="262.28842931940267">creational.builder.HouseBuilder</node>
+    <node x="0.0" y="498.0519509917195">creational.builder.WoodenHouseBuilder</node>
+    <node x="0.0" y="596.0519509917194">creational.builder.BuilderClient</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="creational.builder.WoodenHouseBuilder" target="creational.builder.HouseBuilder">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="creational.builder.ConcreteHouseBuilder" target="creational.builder.HouseBuilder">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="183.0" y="228.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

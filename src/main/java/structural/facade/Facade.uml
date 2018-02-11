@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>structural.facade.FacadeClient</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">structural.facade.Hall</node>
+    <node x="299.0" y="0.0">structural.facade.Photographer</node>
+    <node x="208.625" y="334.0">structural.facade.FacadeClient</node>
+    <node x="134.0" y="0.0">structural.facade.Restaurant</node>
+    <node x="433.0" y="0.0">structural.facade.Vehicle</node>
+    <node x="187.125" y="121.0">structural.facade.WeddingPlanner</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="structural.facade.WeddingPlanner" target="structural.facade.Photographer">
+      <point x="12.25" y="-81.5" />
+      <point x="297.375" y="71.0" />
+      <point x="327.5" y="71.0" />
+      <point x="-28.5" y="25.5" />
+    </edge>
+    <edge source="structural.facade.WeddingPlanner" target="structural.facade.Restaurant">
+      <point x="-12.25" y="-81.5" />
+      <point x="272.875" y="71.0" />
+      <point x="242.75" y="71.0" />
+      <point x="36.25" y="25.5" />
+    </edge>
+    <edge source="structural.facade.WeddingPlanner" target="structural.facade.Hall">
+      <point x="-85.75" y="-81.5" />
+      <point x="199.375" y="101.0" />
+      <point x="28.5" y="101.0" />
+      <point x="-28.5" y="25.5" />
+    </edge>
+    <edge source="structural.facade.WeddingPlanner" target="structural.facade.Vehicle">
+      <point x="61.25" y="-81.5" />
+      <point x="346.375" y="91.0" />
+      <point x="464.0" y="91.0" />
+      <point x="-31.0" y="25.5" />
+    </edge>
+    <edge source="structural.facade.FacadeClient" target="structural.facade.WeddingPlanner">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="81.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="278.5" y="192.5" />
+  <SelectedNodes>
+    <node>structural.facade.FacadeClient</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

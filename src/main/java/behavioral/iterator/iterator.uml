@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>behavioral.iterator.IteratorClient</OriginalElement>
+  <nodes>
+    <node x="258.5340909090909" y="615.0">behavioral.iterator.IteratorClient</node>
+    <node x="378.73295454545456" y="35.5">behavioral.iterator.Iterator</node>
+    <node x="327.8125" y="243.5">behavioral.iterator.Collection</node>
+    <node x="49.801136363636374" y="429.0">behavioral.iterator.LinkedList</node>
+    <node x="516.8125" y="197.0">behavioral.iterator.ArrayIterator</node>
+    <node x="104.8125" y="220.0">behavioral.iterator.ListIterator</node>
+    <node x="0.0" y="0.0">behavioral.iterator.LinkedList.Node</node>
+    <node x="439.6875" y="417.0">behavioral.iterator.Array</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="behavioral.iterator.IteratorClient" target="behavioral.iterator.Array">
+      <point x="48.0" y="-38.0" />
+      <point x="402.5340909090909" y="590.0" />
+      <point x="541.6875" y="590.0" />
+      <point x="0.0" y="74.0" />
+    </edge>
+    <edge source="behavioral.iterator.ListIterator" target="behavioral.iterator.LinkedList.Node">
+      <point x="-50.75" y="-62.0" />
+      <point x="155.5625" y="177.0" />
+      <point x="167.125" y="177.0" />
+      <point x="71.625" y="73.5" />
+    </edge>
+    <edge source="behavioral.iterator.LinkedList" target="behavioral.iterator.Collection">
+      <point x="76.0" y="-62.0" />
+      <point x="220.80113636363637" y="397.0" />
+      <point x="370.0625" y="397.0" />
+      <point x="-42.25" y="38.5" />
+    </edge>
+    <edge source="behavioral.iterator.IteratorClient" target="behavioral.iterator.LinkedList">
+      <point x="-48.0" y="-38.0" />
+      <point x="306.5340909090909" y="590.0" />
+      <point x="144.80113636363637" y="590.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+    <edge source="behavioral.iterator.LinkedList" target="behavioral.iterator.LinkedList.Node">
+      <point x="-38.0" y="-62.0" />
+      <point x="106.80113636363637" y="397.0" />
+      <point x="78.13636363636363" y="397.0" />
+      <point x="78.13636363636363" y="167.0" />
+      <point x="71.625" y="167.0" />
+      <point x="-23.875" y="73.5" />
+    </edge>
+    <edge source="behavioral.iterator.ArrayIterator" target="behavioral.iterator.Iterator">
+      <point x="0.0" y="-85.0" />
+      <point x="628.8125" y="177.0" />
+      <point x="482.23295454545456" y="177.0" />
+      <point x="34.5" y="38.0" />
+    </edge>
+    <edge source="behavioral.iterator.LinkedList" target="behavioral.iterator.ListIterator">
+      <point x="38.0" y="-62.0" />
+      <point x="182.80113636363637" y="397.0" />
+      <point x="206.3125" y="397.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+    <edge source="behavioral.iterator.Array" target="behavioral.iterator.ArrayIterator">
+      <point x="51.0" y="-74.0" />
+      <point x="592.6875" y="397.0" />
+      <point x="628.8125" y="397.0" />
+      <point x="0.0" y="85.0" />
+    </edge>
+    <edge source="behavioral.iterator.ListIterator" target="behavioral.iterator.Iterator">
+      <point x="50.75" y="-62.0" />
+      <point x="257.0625" y="177.0" />
+      <point x="413.23295454545456" y="177.0" />
+      <point x="-34.5" y="38.0" />
+    </edge>
+    <edge source="behavioral.iterator.Array" target="behavioral.iterator.Collection">
+      <point x="-51.0" y="-74.0" />
+      <point x="490.6875" y="397.0" />
+      <point x="454.5625" y="397.0" />
+      <point x="42.25" y="38.5" />
+    </edge>
+    <edge source="behavioral.iterator.LinkedList.Node" target="behavioral.iterator.LinkedList">
+      <point x="-71.625" y="73.5" />
+      <point x="23.875" y="177.0" />
+      <point x="67.13636363636363" y="177.0" />
+      <point x="67.13636363636363" y="397.0" />
+      <point x="68.80113636363637" y="397.0" />
+      <point x="-76.0" y="-62.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="370.5" y="345.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

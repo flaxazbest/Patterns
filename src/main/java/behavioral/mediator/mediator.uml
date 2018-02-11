@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>behavioral.mediator.MediatorClient</OriginalElement>
+  <nodes>
+    <node x="0.0" y="57.0">behavioral.mediator.Gate</node>
+    <node x="272.625" y="0.0">behavioral.mediator.ActMediator</node>
+    <node x="487.14583333333337" y="298.0">behavioral.mediator.Flight</node>
+    <node x="111.14583333333337" y="264.0">behavioral.mediator.ActMediatorImpl</node>
+    <node x="666.0833333333334" y="57.0">behavioral.mediator.Runway</node>
+    <node x="373.125" y="599.0">behavioral.mediator.MediatorClient</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="behavioral.mediator.Flight" target="behavioral.mediator.Gate">
+      <point x="-99.33333333333337" y="-108.5" />
+      <point x="536.8125" y="234.0" />
+      <point x="192.5" y="234.0" />
+      <point x="77.0" y="50.0" />
+    </edge>
+    <edge source="behavioral.mediator.MediatorClient" target="behavioral.mediator.ActMediatorImpl">
+      <point x="-21.5" y="-26.5" />
+      <point x="437.625" y="569.0" />
+      <point x="289.14583333333337" y="569.0" />
+      <point x="0.0" y="142.5" />
+    </edge>
+    <edge source="behavioral.mediator.ActMediatorImpl" target="behavioral.mediator.ActMediator">
+      <point x="0.0" y="-142.5" />
+      <point x="289.14583333333337" y="244.0" />
+      <point x="365.875" y="244.0" />
+      <point x="-93.25" y="107.0" />
+    </edge>
+    <edge source="behavioral.mediator.ActMediatorImpl" target="behavioral.mediator.Runway">
+      <point x="118.66666666666669" y="-142.5" />
+      <point x="407.81250000000006" y="244.0" />
+      <point x="707.25" y="244.0" />
+      <point x="-82.33333333333337" y="50.0" />
+    </edge>
+    <edge source="behavioral.mediator.Flight" target="behavioral.mediator.Runway">
+      <point x="99.33333333333337" y="-108.5" />
+      <point x="735.4791666666667" y="244.0" />
+      <point x="789.5833333333334" y="244.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="behavioral.mediator.MediatorClient" target="behavioral.mediator.Gate">
+      <point x="-64.5" y="-26.5" />
+      <point x="394.625" y="579.0" />
+      <point x="67.140625" y="579.0" />
+      <point x="67.140625" y="244.0" />
+      <point x="38.5" y="244.0" />
+      <point x="-77.0" y="50.0" />
+    </edge>
+    <edge source="behavioral.mediator.ActMediatorImpl" target="behavioral.mediator.Gate">
+      <point x="-118.66666666666669" y="-142.5" />
+      <point x="170.47916666666669" y="244.0" />
+      <point x="115.5" y="244.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="behavioral.mediator.Flight" target="behavioral.mediator.ActMediator">
+      <point x="0.0" y="-108.5" />
+      <point x="636.1458333333334" y="234.0" />
+      <point x="552.375" y="234.0" />
+      <point x="93.25" y="107.0" />
+    </edge>
+    <edge source="behavioral.mediator.MediatorClient" target="behavioral.mediator.Runway">
+      <point x="64.5" y="-26.5" />
+      <point x="523.625" y="579.0" />
+      <point x="830.640625" y="579.0" />
+      <point x="830.640625" y="244.0" />
+      <point x="871.9166666666666" y="244.0" />
+      <point x="82.33333333333326" y="50.0" />
+    </edge>
+    <edge source="behavioral.mediator.MediatorClient" target="behavioral.mediator.Flight">
+      <point x="21.5" y="-26.5" />
+      <point x="480.625" y="569.0" />
+      <point x="636.1458333333334" y="569.0" />
+      <point x="0.0" y="108.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="457.0" y="326.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

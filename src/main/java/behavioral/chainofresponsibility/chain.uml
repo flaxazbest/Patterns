@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>behavioral.chainofresponsibility.ChainClient</OriginalElement>
+  <nodes>
+    <node x="33.0" y="198.0">behavioral.chainofresponsibility.ChainClient</node>
+    <node x="0.0" y="0.0">behavioral.chainofresponsibility.CashDispenser</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="behavioral.chainofresponsibility.ChainClient" target="behavioral.chainofresponsibility.CashDispenser">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="74.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="119.0" y="125.5" />
+  <SelectedNodes>
+    <node>behavioral.chainofresponsibility.ChainClient</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

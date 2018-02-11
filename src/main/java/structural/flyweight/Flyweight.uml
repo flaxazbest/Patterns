@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>structural.flyweight.FlyWeightClient</OriginalElement>
+  <nodes>
+    <node x="706.8299999999999" y="0.0">structural.flyweight.Vehicle</node>
+    <node x="0.0" y="23.0000000000001">structural.flyweight.FlyWeightClient</node>
+    <node x="374.585" y="77.5000000000001">structural.flyweight.VehicleFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="structural.flyweight.VehicleFactory" target="structural.flyweight.Vehicle">
+      <point x="0.0" y="5.0" />
+      <point x="0.0" y="5.0" />
+    </edge>
+    <edge source="structural.flyweight.FlyWeightClient" target="structural.flyweight.VehicleFactory">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.884765625" x="502.0" y="126.0" />
+  <SelectedNodes>
+    <node>structural.flyweight.FlyWeightClient</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

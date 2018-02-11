@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>structural.proxy.ProxyClient</OriginalElement>
+  <nodes>
+    <node x="280.0" y="585.0">structural.proxy.ProxyClient</node>
+    <node x="314.0" y="0.0">structural.proxy.RealServer</node>
+    <node x="0.0" y="42.0">structural.proxy.Server</node>
+    <node x="166.0" y="251.0">structural.proxy.ProxyServer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="structural.proxy.ProxyServer" target="structural.proxy.Server">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="structural.proxy.ProxyServer" target="structural.proxy.RealServer">
+      <point x="-4.675920088400326" y="-1.7708109235303198" />
+      <point x="-4.675920088400332" y="-1.7708109235303198" />
+    </edge>
+    <edge source="structural.proxy.ProxyClient" target="structural.proxy.ProxyServer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="structural.proxy.RealServer" target="structural.proxy.Server">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="293.5" y="319.0" />
+  <SelectedNodes>
+    <node>structural.proxy.ProxyClient</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

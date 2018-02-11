@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>structural.adapter</OriginalElement>
+  <nodes>
+    <node x="452.0" y="173.0">structural.adapter.OMSAdapter</node>
+    <node x="242.99999999999997" y="184.5">structural.adapter.Payment</node>
+    <node x="251.49999999999997" y="370.0">structural.adapter.AdapterClient</node>
+    <node x="492.5" y="0.0">structural.adapter.NewOMS</node>
+    <node x="0.0" y="196.5">structural.adapter.Item</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="structural.adapter.OMSAdapter" target="structural.adapter.NewOMS">
+      <point x="-63.5" y="-73.5" />
+      <point x="515.5" y="148.0" />
+      <point x="535.75" y="148.0" />
+      <point x="-43.25" y="61.5" />
+    </edge>
+    <edge source="structural.adapter.AdapterClient" target="structural.adapter.Payment">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="62.0" />
+    </edge>
+    <edge source="structural.adapter.AdapterClient" target="structural.adapter.OMSAdapter">
+      <point x="57.333333333333314" y="-26.5" />
+      <point x="394.83333333333326" y="345.0" />
+      <point x="579.0" y="345.0" />
+      <point x="0.0" y="73.5" />
+    </edge>
+    <edge source="structural.adapter.AdapterClient" target="structural.adapter.Item">
+      <point x="-57.33333333333337" y="-26.5" />
+      <point x="280.16666666666663" y="345.0" />
+      <point x="111.5" y="345.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="353.0" y="211.5" />
+  <SelectedNodes>
+    <node>structural.adapter.OMSAdapter</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>behavioral.memento.MementoClient</OriginalElement>
+  <nodes>
+    <node x="201.75" y="0.0">behavioral.memento.RecoveryImage</node>
+    <node x="225.75" y="324.0">behavioral.memento.MementoClient</node>
+    <node x="308.0" y="138.5">behavioral.memento.RecoveryTool</node>
+    <node x="0.0" y="127.0">behavioral.memento.OS</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="behavioral.memento.OS" target="behavioral.memento.RecoveryImage">
+      <point x="0.0" y="-73.5" />
+      <point x="144.0" y="102.0" />
+      <point x="256.75" y="102.0" />
+      <point x="-55.0" y="38.5" />
+    </edge>
+    <edge source="behavioral.memento.MementoClient" target="behavioral.memento.OS">
+      <point x="-43.0" y="-26.5" />
+      <point x="268.75" y="299.0" />
+      <point x="144.0" y="299.0" />
+      <point x="0.0" y="73.5" />
+    </edge>
+    <edge source="behavioral.memento.RecoveryTool" target="behavioral.memento.RecoveryImage">
+      <point x="0.0" y="-62.0" />
+      <point x="479.5" y="102.0" />
+      <point x="366.75" y="102.0" />
+      <point x="55.0" y="38.5" />
+    </edge>
+    <edge source="behavioral.memento.MementoClient" target="behavioral.memento.RecoveryTool">
+      <point x="43.0" y="-26.5" />
+      <point x="354.75" y="299.0" />
+      <point x="479.5" y="299.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.4000000000000001" x="260.99999999999994" y="201.85714285714283" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
