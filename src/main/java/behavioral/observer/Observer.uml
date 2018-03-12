@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>behavioral.observer.Item</OriginalElement>
+  <nodes>
+    <node x="532.0" y="259.0">behavioral.observer.AddItemTopic</node>
+    <node x="728.125" y="738.0">behavioral.observer.ObserverClient</node>
+    <node x="1347.625" y="259.0">behavioral.observer.Item</node>
+    <node x="0.0" y="259.0">behavioral.observer.Payment</node>
+    <node x="1249.625" y="144.5">behavioral.observer.CustomerDisplay</node>
+    <node x="698.125" y="449.0">behavioral.observer.Order</node>
+    <node x="227.0" y="259.0">behavioral.observer.AddPaymentTopic</node>
+    <node x="673.5" y="133.0">behavioral.observer.Topic</node>
+    <node x="1054.625" y="144.5">behavioral.observer.CashierDisplay</node>
+    <node x="596.7005208333335" y="0.0">behavioral.observer.Observer</node>
+    <node x="824.625" y="259.0">behavioral.observer.CompleteOrderTopic</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="behavioral.observer.ObserverClient" target="behavioral.observer.Order">
+      <point x="-21.5" y="-26.5" />
+      <point x="792.625" y="713.0" />
+      <point x="756.125" y="713.0" />
+      <point x="-58.0" y="119.5" />
+    </edge>
+    <edge source="behavioral.observer.ObserverClient" target="behavioral.observer.Item">
+      <point x="64.5" y="-26.5" />
+      <point x="878.625" y="713.0" />
+      <point x="1421.9677241161617" y="713.0" />
+      <point x="1421.9677241161617" y="429.0" />
+      <point x="1500.125" y="429.0" />
+      <point x="61.0" y="50.0" />
+    </edge>
+    <edge source="behavioral.observer.CompleteOrderTopic" target="behavioral.observer.Topic">
+      <point x="-102.33333333333331" y="-50.0" />
+      <point x="875.7916666666667" y="234.0" />
+      <point x="870.375" y="234.0" />
+      <point x="84.375" y="38.0" />
+    </edge>
+    <edge source="behavioral.observer.CompleteOrderTopic" target="behavioral.observer.Observer">
+      <point x="0.0" y="-50.0" />
+      <point x="978.5621843434344" y="103.0" />
+      <point x="710.4505208333335" y="103.0" />
+      <point x="26.25" y="26.5" />
+    </edge>
+    <edge source="behavioral.observer.AddItemTopic" target="behavioral.observer.Topic">
+      <point x="87.33333333333326" y="-50.0" />
+      <point x="750.3333333333333" y="234.0" />
+      <point x="757.875" y="234.0" />
+      <point x="-28.125" y="38.0" />
+    </edge>
+    <edge source="behavioral.observer.AddItemTopic" target="behavioral.observer.Observer">
+      <point x="0.0" y="-50.0" />
+      <point x="663.0" y="113.0" />
+      <point x="675.4505208333335" y="113.0" />
+      <point x="-8.75" y="26.5" />
+    </edge>
+    <edge source="behavioral.observer.Order" target="behavioral.observer.CashierDisplay">
+      <point x="42.181818181818244" y="-119.5" />
+      <point x="856.3068181818182" y="389.0" />
+      <point x="1142.125" y="389.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="behavioral.observer.CashierDisplay" target="behavioral.observer.Observer">
+      <point x="0.0" y="-26.5" />
+      <point x="1142.125" y="83.0" />
+      <point x="745.4505208333335" y="83.0" />
+      <point x="61.25" y="26.5" />
+    </edge>
+    <edge source="behavioral.observer.AddPaymentTopic" target="behavioral.observer.Observer">
+      <point x="0.0" y="-50.0" />
+      <point x="369.5" y="103.0" />
+      <point x="640.4505208333335" y="103.0" />
+      <point x="-43.75" y="26.5" />
+    </edge>
+    <edge source="behavioral.observer.Order" target="behavioral.observer.AddItemTopic">
+      <point x="-21.090909090909122" y="-119.5" />
+      <point x="793.0340909090909" y="379.0" />
+      <point x="663.0" y="379.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="behavioral.observer.CustomerDisplay" target="behavioral.observer.Observer">
+      <point x="0.0" y="-26.5" />
+      <point x="1337.125" y="73.0" />
+      <point x="762.9505208333335" y="73.0" />
+      <point x="78.75" y="26.5" />
+    </edge>
+    <edge source="behavioral.observer.Order" target="behavioral.observer.CustomerDisplay">
+      <point x="63.27272727272725" y="-119.5" />
+      <point x="877.3977272727273" y="399.0" />
+      <point x="1337.125" y="399.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="behavioral.observer.Order" target="behavioral.observer.CompleteOrderTopic">
+      <point x="21.090909090909122" y="-119.5" />
+      <point x="835.2159090909091" y="379.0" />
+      <point x="978.125" y="379.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="behavioral.observer.Order" target="behavioral.observer.Payment">
+      <point x="-84.36363636363637" y="-119.5" />
+      <point x="729.7613636363636" y="409.0" />
+      <point x="171.66666666666674" y="409.0" />
+      <point x="68.66666666666669" y="50.0" />
+    </edge>
+    <edge source="behavioral.observer.Order" target="behavioral.observer.Topic">
+      <point x="0.0" y="-119.5" />
+      <point x="28.125" y="38.0" />
+    </edge>
+    <edge source="behavioral.observer.Order" target="behavioral.observer.AddPaymentTopic">
+      <point x="-42.181818181818244" y="-119.5" />
+      <point x="771.9431818181818" y="389.0" />
+      <point x="369.5" y="389.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="behavioral.observer.Order" target="behavioral.observer.Item">
+      <point x="84.36363636363637" y="-119.5" />
+      <point x="898.4886363636364" y="409.0" />
+      <point x="1378.125" y="409.0" />
+      <point x="-61.0" y="50.0" />
+    </edge>
+    <edge source="behavioral.observer.ObserverClient" target="behavioral.observer.Payment">
+      <point x="-64.5" y="-26.5" />
+      <point x="749.625" y="713.0" />
+      <point x="132.35779671717182" y="713.0" />
+      <point x="132.35779671717182" y="429.0" />
+      <point x="34.33333333333337" y="429.0" />
+      <point x="-68.66666666666663" y="50.0" />
+    </edge>
+    <edge source="behavioral.observer.Order" target="behavioral.observer.Observer">
+      <point x="-63.27272727272725" y="-119.5" />
+      <point x="750.8522727272727" y="399.0" />
+      <point x="216.5" y="399.0" />
+      <point x="216.5" y="83.0" />
+      <point x="605.4505208333335" y="83.0" />
+      <point x="-78.75" y="26.5" />
+    </edge>
+    <edge source="behavioral.observer.Topic" target="behavioral.observer.Observer">
+      <point x="0.0" y="-38.0" />
+      <point x="786.0" y="113.0" />
+      <point x="692.9505208333335" y="113.0" />
+      <point x="8.75" y="26.5" />
+    </edge>
+    <edge source="behavioral.observer.AddPaymentTopic" target="behavioral.observer.Topic">
+      <point x="95.0" y="-50.0" />
+      <point x="464.5" y="234.0" />
+      <point x="701.625" y="234.0" />
+      <point x="-84.375" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7715768981181054" x="794.8809922759874" y="362.5446945867399" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
