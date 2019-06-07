@@ -3,52 +3,52 @@
   <ID>JAVA</ID>
   <OriginalElement>structural.bridge.Blue</OriginalElement>
   <nodes>
-    <node x="183.5" y="0.0">structural.bridge.Shape</node>
     <node x="0.0" y="474.0">structural.bridge.BridgeClient</node>
+    <node x="168.5" y="0.0">structural.bridge.Shape</node>
     <node x="183.0" y="273.0">structural.bridge.Color</node>
-    <node x="0.0" y="151.0">structural.bridge.Rectangle</node>
-    <node x="0.0" y="376.0">structural.bridge.Blue</node>
+    <node x="366.0" y="376.0">structural.bridge.Blue</node>
+    <node x="332.0" y="151.0">structural.bridge.Rectangle</node>
     <node x="183.0" y="376.0">structural.bridge.Green</node>
-    <node x="366.0" y="376.0">structural.bridge.Red</node>
-    <node x="185.0" y="151.0">structural.bridge.Circle</node>
-    <node x="347.0" y="151.0">structural.bridge.Square</node>
+    <node x="0.0" y="376.0">structural.bridge.Red</node>
+    <node x="170.0" y="151.0">structural.bridge.Circle</node>
+    <node x="0.0" y="151.0">structural.bridge.Square</node>
   </nodes>
   <notes />
   <edges>
     <edge source="structural.bridge.Red" target="structural.bridge.Color">
       <point x="0.0" y="-26.5" />
-      <point x="447.5" y="351.0" />
-      <point x="318.83333333333337" y="351.0" />
-      <point x="54.33333333333337" y="26.5" />
-    </edge>
-    <edge source="structural.bridge.Rectangle" target="structural.bridge.Shape">
-      <point x="0.0" y="-38.5" />
-      <point x="82.5" y="126.0" />
-      <point x="207.66666666666666" y="126.0" />
-      <point x="-48.33333333333334" y="50.5" />
-    </edge>
-    <edge source="structural.bridge.Square" target="structural.bridge.Shape">
-      <point x="0.0" y="-38.5" />
-      <point x="422.0" y="126.0" />
-      <point x="304.33333333333337" y="126.0" />
-      <point x="48.33333333333337" y="50.5" />
-    </edge>
-    <edge source="structural.bridge.Blue" target="structural.bridge.Color">
-      <point x="0.0" y="-26.5" />
       <point x="81.5" y="351.0" />
       <point x="210.16666666666666" y="351.0" />
       <point x="-54.33333333333334" y="26.5" />
     </edge>
-    <edge source="structural.bridge.Circle" target="structural.bridge.Shape">
+    <edge source="structural.bridge.Rectangle" target="structural.bridge.Shape">
       <point x="0.0" y="-38.5" />
-      <point x="0.0" y="50.5" />
+      <point x="414.5" y="126.0" />
+      <point x="289.33333333333337" y="126.0" />
+      <point x="48.33333333333337" y="50.5" />
+    </edge>
+    <edge source="structural.bridge.Square" target="structural.bridge.Shape">
+      <point x="0.0" y="-38.5" />
+      <point x="75.0" y="126.0" />
+      <point x="192.66666666666666" y="126.0" />
+      <point x="-48.33333333333334" y="50.5" />
     </edge>
     <edge source="structural.bridge.Green" target="structural.bridge.Color">
       <point x="0.0" y="-26.5" />
       <point x="0.0" y="26.5" />
     </edge>
+    <edge source="structural.bridge.Circle" target="structural.bridge.Shape">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="structural.bridge.Blue" target="structural.bridge.Color">
+      <point x="0.0" y="-26.5" />
+      <point x="447.5" y="351.0" />
+      <point x="318.83333333333337" y="351.0" />
+      <point x="54.33333333333337" y="26.5" />
+    </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.909554140127389" x="638.8135295670536" y="510.5665170714535" />
+  <settings layout="Hierarchic Group" zoom="1.0095541401273882" x="349.10446794853203" y="246.39623509936234" />
   <SelectedNodes>
     <node>structural.bridge.Blue</node>
   </SelectedNodes>

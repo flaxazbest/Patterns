@@ -1,4 +1,4 @@
 package behavioral.chainofresponsibility2;
 
-public class Chainer {
+public class Filter {
 }
