@@ -1,6 +1,6 @@
 package creational.prototype;
 
-public class MachineImage implements Cloneable {
+public class    MachineImage implements Cloneable {
     StringBuilder image;
 
     public MachineImage(String os, String antivirusSW) {

@@ -1,23 +1,24 @@
 package creational.singleton;
 
-public class Singleton {
+class Singleton {
+    private static volatile Singleton instance;
 
-    private static Singleton instance = null;
+    public static Singleton getInstance() {
+        Singleton localInstance = instance;
+        if (localInstance == null) {
+            synchronized (Singleton.class) {
+                localInstance = instance;
+                if (localInstance == null) {
+                    instance = localInstance = new Singleton();
+                }
+            }
+        }
+        return localInstance;
+    }
 
     private Singleton() {}
 
-    public static Singleton getInstance() {
-        if (instance == null) {
-            synchronized (Singleton.class) {
-                /* double cheked locking */
-                instance = new Singleton();
-            }
-        }
-        return instance;
-    }
-
-    public void printObj() {
+    void printObj() {
         System.out.println("Unique Id of the obj: " + System.identityHashCode(this));
     }
-
 }
