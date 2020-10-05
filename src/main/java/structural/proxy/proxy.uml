@@ -3,38 +3,32 @@
   <ID>JAVA</ID>
   <OriginalElement>structural.proxy.ProxyClient</OriginalElement>
   <nodes>
-    <node x="280.0" y="585.0">structural.proxy.ProxyClient</node>
-    <node x="314.0" y="0.0">structural.proxy.RealServer</node>
-    <node x="0.0" y="42.0">structural.proxy.Server</node>
-    <node x="166.0" y="251.0">structural.proxy.ProxyServer</node>
+    <node x="391.0" y="0.0">structural.proxy.ProxyClient</node>
+    <node x="193.0" y="255.5">structural.proxy.RealServer</node>
+    <node x="0.0" y="220.0">structural.proxy.ProxyServer</node>
+    <node x="101.5" y="0.0">structural.proxy.Server</node>
   </nodes>
   <notes />
   <edges>
     <edge source="structural.proxy.ProxyServer" target="structural.proxy.Server">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="structural.proxy.ProxyServer" target="structural.proxy.RealServer">
-      <point x="-4.675920088400326" y="-1.7708109235303198" />
-      <point x="-4.675920088400332" y="-1.7708109235303198" />
-    </edge>
-    <edge source="structural.proxy.ProxyClient" target="structural.proxy.ProxyServer">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-120.5" />
+      <point x="86.5" y="195.0" />
+      <point x="139.75" y="195.0" />
+      <point x="-38.25" y="85.0" />
     </edge>
     <edge source="structural.proxy.RealServer" target="structural.proxy.Server">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-85.0" />
+      <point x="269.5" y="195.0" />
+      <point x="216.25" y="195.0" />
+      <point x="38.25" y="85.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="293.5" y="319.0" />
-  <SelectedNodes>
-    <node>structural.proxy.ProxyClient</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic Group" zoom="1.6" x="171.52380952380952" y="222.78571428571416" />
+  <SelectedNodes />
   <Categories>
-    <Category>Methods</Category>
-    <Category>Constructors</Category>
     <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
     <Category>Properties</Category>
     <Category>Inner Classes</Category>
   </Categories>

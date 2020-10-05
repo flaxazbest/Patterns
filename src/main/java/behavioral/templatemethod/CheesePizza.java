@@ -12,6 +12,7 @@ public class CheesePizza extends Pizza {
     }
 
     protected void cook() {
-        System.out.println("Cooked for 12 minutes");
+        super.cook();
+        System.out.println("Cooked 1 more minutes");
     }
 }

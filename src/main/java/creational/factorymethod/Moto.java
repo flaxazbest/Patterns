@@ -5,7 +5,7 @@ public class Moto implements Vehicle {
     Moto() {
         /*
         * Constructor is protected,
-        * clients needto use the factory method
+        * clients need to use the factory method
         * */
     }
 

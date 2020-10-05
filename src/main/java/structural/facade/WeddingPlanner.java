@@ -1,5 +1,10 @@
 package structural.facade;
 
+import structural.facade.real.Hall;
+import structural.facade.real.Photographer;
+import structural.facade.real.Restaurant;
+import structural.facade.real.Vehicle;
+
 public class WeddingPlanner {
 
     private Hall hall;

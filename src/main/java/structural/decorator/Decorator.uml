@@ -3,55 +3,64 @@
   <ID>JAVA</ID>
   <OriginalElement>structural.decorator.DecoratorClient</OriginalElement>
   <nodes>
-    <node x="222.0" y="0.0">structural.decorator.Item</node>
-    <node x="434.0" y="248.0">structural.decorator.DeepFried</node>
-    <node x="74.0" y="248.0">structural.decorator.Spicy</node>
-    <node x="249.0" y="101.0">structural.decorator.PizzaDecorator</node>
-    <node x="167.66666666666666" y="372.0">structural.decorator.DecoratorClient</node>
-    <node x="0.0" y="124.0">structural.decorator.Pizza</node>
-    <node x="230.0" y="248.0">structural.decorator.DoubleCheese</node>
+    <node x="0.0" y="258.0">structural.decorator.OnionPizza</node>
+    <node x="331.0" y="0.0">structural.decorator.Item</node>
+    <node x="316.0" y="258.0">structural.decorator.DeepFried</node>
+    <node x="168.0" y="258.0">structural.decorator.Spicy</node>
+    <node x="224.0" y="105.0">structural.decorator.PizzaDecorator</node>
+    <node x="0.0" y="382.0">structural.decorator.DecoratorClient</node>
+    <node x="416.0" y="129.0">structural.decorator.Pizza</node>
+    <node x="480.0" y="258.0">structural.decorator.DoubleCheese</node>
   </nodes>
   <notes />
   <edges>
     <edge source="structural.decorator.Pizza" target="structural.decorator.Item">
-      <point x="0.0" y="-25.5" />
-      <point x="63.5" y="76.0" />
-      <point x="243.16666666666669" y="76.0" />
-      <point x="-42.333333333333314" y="25.5" />
+      <point x="0.0" y="-27.5" />
+      <point x="480.0" y="80.0" />
+      <point x="427.0" y="80.0" />
+      <point x="32.0" y="27.5" />
     </edge>
     <edge source="structural.decorator.DoubleCheese" target="structural.decorator.PizzaDecorator">
-      <point x="0.0" y="-37.0" />
-      <point x="0.0" y="48.5" />
+      <point x="0.0" y="-39.5" />
+      <point x="564.0" y="228.0" />
+      <point x="374.5" y="228.0" />
+      <point x="64.5" y="51.5" />
     </edge>
     <edge source="structural.decorator.PizzaDecorator" target="structural.decorator.Item">
-      <point x="36.5" y="-48.5" />
-      <point x="358.5" y="76.0" />
-      <point x="327.83333333333337" y="76.0" />
-      <point x="42.33333333333337" y="25.5" />
+      <point x="0.0" y="-51.5" />
+      <point x="310.0" y="80.0" />
+      <point x="363.0" y="80.0" />
+      <point x="-32.0" y="27.5" />
     </edge>
     <edge source="structural.decorator.DeepFried" target="structural.decorator.PizzaDecorator">
-      <point x="0.0" y="-37.0" />
-      <point x="514.5" y="223.0" />
-      <point x="370.66666666666663" y="223.0" />
-      <point x="48.66666666666663" y="48.5" />
+      <point x="0.0" y="-39.5" />
+      <point x="388.0" y="238.0" />
+      <point x="331.5" y="238.0" />
+      <point x="21.5" y="51.5" />
+    </edge>
+    <edge source="structural.decorator.OnionPizza" target="structural.decorator.PizzaDecorator">
+      <point x="0.0" y="-39.5" />
+      <point x="74.0" y="228.0" />
+      <point x="245.5" y="228.0" />
+      <point x="-64.5" y="51.5" />
     </edge>
     <edge source="structural.decorator.Spicy" target="structural.decorator.PizzaDecorator">
-      <point x="0.0" y="-37.0" />
-      <point x="142.0" y="223.0" />
-      <point x="273.33333333333337" y="223.0" />
-      <point x="-48.66666666666666" y="48.5" />
+      <point x="0.0" y="-39.5" />
+      <point x="232.0" y="238.0" />
+      <point x="288.5" y="238.0" />
+      <point x="-21.5" y="51.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.4000000000000001" x="365.53846153846155" y="244.53846153846166" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="324.0" y="218.5" />
   <SelectedNodes>
-    <node>structural.decorator.DecoratorClient</node>
+    <node>structural.decorator.Item</node>
   </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
-    <Category>Inner Classes</Category>
     <Category>Constructors</Category>
-    <Category>Properties</Category>
     <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>

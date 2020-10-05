@@ -23,3 +23,29 @@ public class FactoryMethodClient {
     }
 
 }
+
+/*
+SOLID
+
+S - single responsibility
+O - open/closed
+L - Barbara Liskov
+I - interface segregation
+D - dependency inversion
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

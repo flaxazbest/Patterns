@@ -1,4 +1,4 @@
-package structural.facade;
+package structural.facade.real;
 
 public class Hall {
 

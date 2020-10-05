@@ -11,7 +11,7 @@ public class IteratorClient {
         iterate(array.getIterator());
 
 
-        Collection list = new LinkedList();
+        Collection list = new Array(3);
         list.insert(11);
         list.insert(22);
         list.insert(33);

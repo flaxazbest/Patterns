@@ -3,25 +3,31 @@
   <ID>JAVA</ID>
   <OriginalElement>structural.flyweight.FlyWeightClient</OriginalElement>
   <nodes>
-    <node x="706.8299999999999" y="0.0">structural.flyweight.Vehicle</node>
-    <node x="0.0" y="23.0000000000001">structural.flyweight.FlyWeightClient</node>
-    <node x="374.585" y="77.5000000000001">structural.flyweight.VehicleFactory</node>
+    <node x="44.72916666666666" y="0.0">structural.flyweight.Vehicle</node>
+    <node x="118.0" y="468.0">structural.flyweight.FlyWeightClient</node>
+    <node x="0.0" y="315.0">structural.flyweight.VehicleFactory</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="structural.flyweight.VehicleFactory" target="structural.flyweight.Vehicle">
-      <point x="0.0" y="5.0" />
-      <point x="0.0" y="5.0" />
-    </edge>
     <edge source="structural.flyweight.FlyWeightClient" target="structural.flyweight.VehicleFactory">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
+      <point x="0.0" y="-108.5" />
+      <point x="67.5" y="51.5" />
+    </edge>
+    <edge source="structural.flyweight.FlyWeightClient" target="structural.flyweight.Vehicle">
+      <point x="56.333333333333314" y="-108.5" />
+      <point x="258.8333333333333" y="443.0" />
+      <point x="280.5" y="443.0" />
+      <point x="101.25" y="132.5" />
+    </edge>
+    <edge source="structural.flyweight.VehicleFactory" target="structural.flyweight.Vehicle">
+      <point x="-90.0" y="-51.5" />
+      <point x="45.0" y="290.0" />
+      <point x="78.47916666666666" y="290.0" />
+      <point x="-101.25" y="132.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.884765625" x="502.0" y="126.0" />
-  <SelectedNodes>
-    <node>structural.flyweight.FlyWeightClient</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic Group" zoom="1.1999999999999997" x="252.43589743589757" y="342.3333333333334" />
+  <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
     <Category>Constructors</Category>

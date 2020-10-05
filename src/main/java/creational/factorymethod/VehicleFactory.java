@@ -21,6 +21,9 @@ public class VehicleFactory {
             default:
                 throw new VehicleTypeNotFoundException();
         }
+
+
+
         return vehicle;
     }
 }

@@ -5,7 +5,7 @@ public class Truck implements Vehicle {
     Truck() {
         /*
         * Constructor is protected,
-        * clients needto use the factory method
+        * clients need to use the factory method
         * */
     }
 

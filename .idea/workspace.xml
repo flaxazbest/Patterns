@@ -2,191 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31b63dbf-6607-4dc3-a074-e60d1d609a07" name="Default" comment="added singleton variations">
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/inner/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/inner/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/chainofresponsibility2/ChainMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/chainofresponsibility2/ChainMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/chainofresponsibility2/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/chainofresponsibility2/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy2/AxeWeaponType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy2/BowWeaponType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy2/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy2/StrategyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy2/SwordWeaponType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy2/WeaponType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/adapter2/ExternalLibraryAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/adapter3/ImageAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/adapter3/ImageClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/adapter3/ImageInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/adapter3/MyApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/OnionPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zsolid/is/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zsolid/is/GodClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zsolid/is/GodInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zsolid/is/SmallGod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zsolid/is/demo/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zsolid/is/demo/SomeClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zsolid/is/separatedI/Something.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zsolid/is/separatedI/SomethingElse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zsolid/is/separatedI/StringReturner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/chainofresponsibility/chain.uml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/chainofresponsibility/chain.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/iterator/IteratorClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/IteratorClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/iterator/iterator.uml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/iterator.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/templatemethod/CheesePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/templatemethod/CheesePizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/templatemethod/MeatPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/templatemethod/MeatPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/templatemethod/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/templatemethod/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/templatemethod/TemplateMethodClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/templatemethod/TemplateMethodClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/abstractfactory/AbstractFactory.uml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/abstractfactory/AbstractFactory.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factorymethod/FactoryMethod.uml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/FactoryMethod.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factorymethod/FactoryMethodClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/FactoryMethodClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factorymethod/Moto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/Moto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factorymethod/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/factorymethod/VehicleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/VehicleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/singleton/holder/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/holder/Singleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/structural/adapter2/AdapterForExternalLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adapter2/AdapterForExternalLibrary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/structural/bridge/bridge.uml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/bridge.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/adapter2/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adapter2/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/adapter2/ExternalLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/adapter2/ExternalLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/composite/Composite.uml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/composite/Composite.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/decorator/Decorator.uml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/Decorator.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/decorator/DecoratorClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/DecoratorClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/facade/Facade.uml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/facade/Facade.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/facade/Hall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/facade/real/Hall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/facade/Photographer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/facade/real/Photographer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/facade/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/facade/real/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/facade/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/facade/real/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/facade/WeddingPlanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/facade/WeddingPlanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/flyweight/Flyweight.uml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/Flyweight.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/structural/proxy/proxy.uml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structural/proxy/proxy.uml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/creational/singleton/holder/Singleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding>
-                <element signature="e#228#229#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/creational/builder/BuilderClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/creational/builder/inner/Account.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-              <folding>
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#294#295#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#776#777#0" expanded="true" />
-                <element signature="e#819#820#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/creational/builder/inner/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/structural/bridge/bridge.uml">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>structural.bridge.Blue</OriginalElement>
-              <nodes>
-                <node x="0.0" y="474.0">structural.bridge.BridgeClient</node>
-                <node x="168.5" y="0.0">structural.bridge.Shape</node>
-                <node x="183.0" y="273.0">structural.bridge.Color</node>
-                <node x="366.0" y="376.0">structural.bridge.Blue</node>
-                <node x="332.0" y="151.0">structural.bridge.Rectangle</node>
-                <node x="183.0" y="376.0">structural.bridge.Green</node>
-                <node x="0.0" y="376.0">structural.bridge.Red</node>
-                <node x="170.0" y="151.0">structural.bridge.Circle</node>
-                <node x="0.0" y="151.0">structural.bridge.Square</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="structural.bridge.Red" target="structural.bridge.Color">
-                  <point x="0.0" y="-26.5" />
-                  <point x="81.5" y="351.0" />
-                  <point x="210.16666666666666" y="351.0" />
-                  <point x="-54.33333333333334" y="26.5" />
-                </edge>
-                <edge source="structural.bridge.Rectangle" target="structural.bridge.Shape">
-                  <point x="0.0" y="-38.5" />
-                  <point x="414.5" y="126.0" />
-                  <point x="289.33333333333337" y="126.0" />
-                  <point x="48.33333333333337" y="50.5" />
-                </edge>
-                <edge source="structural.bridge.Square" target="structural.bridge.Shape">
-                  <point x="0.0" y="-38.5" />
-                  <point x="75.0" y="126.0" />
-                  <point x="192.66666666666666" y="126.0" />
-                  <point x="-48.33333333333334" y="50.5" />
-                </edge>
-                <edge source="structural.bridge.Green" target="structural.bridge.Color">
-                  <point x="0.0" y="-26.5" />
-                  <point x="0.0" y="26.5" />
-                </edge>
-                <edge source="structural.bridge.Circle" target="structural.bridge.Shape">
-                  <point x="0.0" y="-38.5" />
-                  <point x="0.0" y="50.5" />
-                </edge>
-                <edge source="structural.bridge.Blue" target="structural.bridge.Color">
-                  <point x="0.0" y="-26.5" />
-                  <point x="447.5" y="351.0" />
-                  <point x="318.83333333333337" y="351.0" />
-                  <point x="54.33333333333337" y="26.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0095541401273882" x="350.6772712458044" y="250.039384313254" />
-              <SelectedNodes>
-                <node>structural.bridge.Blue</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Methods</Category>
-                <Category>Properties</Category>
-                <Category>Inner Classes</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/chainofresponsibility2/ChainMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/chainofresponsibility2/Filter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/structural/adapter2/AdapterForExternalLibrary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/creational/singleton/eager/Singleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-              <folding>
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/creational/singleton/enumbase/Singleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -200,176 +70,16 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/mediator/Gate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/mediator/Flight.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/mediator/ActMediatorImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/mediator/MediatorClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/memento/RecoveryImage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/memento/OS.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/memento/RecoveryTool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/memento/MementoClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/observer/Observer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/observer/Topic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/observer/AddPaymentTopic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/observer/CompleteOrderTopic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/observer/Item.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/observer/Payment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/observer/ObserverClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/observer/CashierDisplay.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/observer/Order.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/observer/CustomerDisplay.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/state/AtmState.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/state/Atm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/state/Working.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/state/NoCash.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/state/StateClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/strategy/PaymentStrategy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/strategy/CardPayment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/strategy/CashPayment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/strategy/Item.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/strategy/Order.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/templatemethod/MeatPizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/templatemethod/CheesePizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/templatemethod/Pizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/visitor/Visitable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/visitor/FoodItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/visitor/LiquorItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/visitor/Visitor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/visitor/DiscountVisitor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/visitor/TaxVisitor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/visitor/VisitorClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/templatemethod/TemplateMethodClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/strategy/StrategyClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/observer/AddItemTopic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/creational/prototype/MachineImage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/creational/singleton/enumbase/Singleton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/creational/singleton/Singleton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/creational/singleton/holder/Singleton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/creational/singleton/eager/Singleton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/creational/builder/inner/Account.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/chainofresponsibility2/ChainMain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/behavioral/chainofresponsibility2/Filter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/structural/adapter2/AdapterForExternalLibrary.java" />
-        <option value="$PROJECT_DIR$/src/main/java/creational/builder/inner/Client.java" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1920" />
-    <option name="width" value="1914" />
-    <option name="height" value="1076" />
-  </component>
+  <component name="ProjectId" id="1bBDwUQzHdOz0NBcKv9MzkSbNnh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Default'; set:Default; class com.intellij.packageDependencies.ChangeListScope">
-          <expand>
-            <path>
-              <item name="Patterns" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Patterns" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="behavioral" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="behavioral" type="462c0819:PsiDirectoryNode" />
-              <item name="chainofresponsibility2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="creational" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="structural" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="structural" type="462c0819:PsiDirectoryNode" />
-              <item name="bridge" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Patterns2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
@@ -378,19 +88,7 @@
       <recent name="behavioral.memento" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.ProxyClient">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -453,12 +151,12 @@
       </method>
     </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.builder.inner.Client" />
+      <option name="MAIN_CLASS_NAME" value="creational.abstractfactory.Client" />
       <module name="Patterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.builder.inner.*" />
+          <option name="PATTERN" value="creational.abstractfactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -466,13 +164,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompositeClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.composite.CompositeClient" />
+    <configuration name="FacadeClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.facade.FacadeClient" />
       <module name="Patterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.composite.*" />
+          <option name="PATTERN" value="structural.facade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlyWeightClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.flyweight.FlyWeightClient" />
+      <module name="Patterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structural.flyweight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.proxy.ProxyClient" />
+      <module name="Patterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structural.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -481,40 +207,12 @@
       </method>
     </configuration>
     <configuration name="StrategyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioral.strategy.StrategyClient" />
+      <option name="MAIN_CLASS_NAME" value="behavioral.strategy2.StrategyClient" />
       <module name="Patterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioral.strategy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TemplateMethodClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioral.templatemethod.TemplateMethodClient" />
-      <module name="Patterns" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="behavioral.templatemethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VisitorClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioral.visitor.VisitorClient" />
-      <module name="Patterns" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="behavioral.visitor.*" />
+          <option name="PATTERN" value="behavioral.strategy2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -534,6 +232,7 @@
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
@@ -546,6 +245,7 @@
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
       <properties />
@@ -558,18 +258,20 @@
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
       <option name="vmParameters" />
       <option name="alternativeJrePath" />
@@ -604,6 +306,7 @@
       </method>
     </configuration>
     <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -631,17 +334,17 @@
     </configuration>
     <list>
       <item itemvalue="Application.StrategyClient" />
-      <item itemvalue="Application.TemplateMethodClient" />
-      <item itemvalue="Application.VisitorClient" />
-      <item itemvalue="Application.CompositeClient" />
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.FacadeClient" />
+      <item itemvalue="Application.FlyWeightClient" />
+      <item itemvalue="Application.ProxyClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProxyClient" />
+        <item itemvalue="Application.FlyWeightClient" />
+        <item itemvalue="Application.FacadeClient" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.CompositeClient" />
-        <item itemvalue="Application.VisitorClient" />
-        <item itemvalue="Application.TemplateMethodClient" />
         <item itemvalue="Application.StrategyClient" />
       </list>
     </recent_temporary>
@@ -682,7 +385,17 @@
       <workItem from="1554740313251" duration="1222000" />
       <workItem from="1554837878308" duration="612000" />
       <workItem from="1555010277810" duration="606000" />
-      <workItem from="1559888007974" duration="6926000" />
+      <workItem from="1559888007974" duration="7630000" />
+      <workItem from="1560099800516" duration="589000" />
+      <workItem from="1588096833674" duration="2280000" />
+      <workItem from="1588104318912" duration="678000" />
+      <workItem from="1588277583275" duration="34000" />
+      <workItem from="1588457839782" duration="42000" />
+      <workItem from="1589870139859" duration="6091000" />
+      <workItem from="1589880692719" duration="92000" />
+      <workItem from="1590474344992" duration="5885000" />
+      <workItem from="1590954433672" duration="109000" />
+      <workItem from="1601873249877" duration="15311000" />
     </task>
     <task id="LOCAL-00001" summary="adaper&#10;proxy">
       <created>1514588750413</created>
@@ -757,70 +470,15 @@
     <option name="localTasksCounter" value="11" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83097000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1914" height="1076" extended-state="0" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.227224" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Nl-Palette" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31236896" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32881" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32881" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32881" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32985386" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Properties" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Maven Projects" order="9" />
-      <window_info anchor="right" id="Maven" order="10" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -839,6 +497,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -855,637 +514,50 @@
     <MESSAGE value="added singleton variations" />
     <option name="LAST_COMMIT_MESSAGE" value="added singleton variations" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="2688" y="248" width="376" height="579" key="#com.intellij.ide.util.MemberChooser" timestamp="1601880266858">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2688" y="248" width="376" height="579" key="#com.intellij.ide.util.MemberChooser/32.0.1888.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601880266858" />
+    <state x="2663" y="298" width="426" height="480" key="FileChooserDialogImpl" timestamp="1601873256341">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2663" y="298" width="426" height="480" key="FileChooserDialogImpl/32.0.1888.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601873256341" />
+    <state width="1473" height="860" key="GridCell.Tab.0.bottom" timestamp="1601888301593">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1473" height="860" key="GridCell.Tab.0.bottom/32.0.1888.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601888301593" />
+    <state width="1473" height="860" key="GridCell.Tab.0.center" timestamp="1601888301592">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1473" height="860" key="GridCell.Tab.0.center/32.0.1888.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601888301592" />
+    <state width="1473" height="860" key="GridCell.Tab.0.left" timestamp="1601888301592">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1473" height="860" key="GridCell.Tab.0.left/32.0.1888.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601888301592" />
+    <state width="1473" height="860" key="GridCell.Tab.0.right" timestamp="1601888301593">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1473" height="860" key="GridCell.Tab.0.right/32.0.1888.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601888301593" />
+    <state width="1473" height="356" key="GridCell.Tab.1.bottom" timestamp="1601885882370">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1473" height="356" key="GridCell.Tab.1.bottom/32.0.1888.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601885882370" />
+    <state width="1473" height="356" key="GridCell.Tab.1.center" timestamp="1601885882370">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1473" height="356" key="GridCell.Tab.1.center/32.0.1888.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601885882370" />
+    <state width="1473" height="356" key="GridCell.Tab.1.left" timestamp="1601885882370">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1473" height="356" key="GridCell.Tab.1.left/32.0.1888.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601885882370" />
+    <state width="1473" height="356" key="GridCell.Tab.1.right" timestamp="1601885882370">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1473" height="356" key="GridCell.Tab.1.right/32.0.1888.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601885882370" />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/factorymethod/FactoryMethod.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>creational.factorymethod.FactoryMethodClient</OriginalElement>
-          <nodes>
-            <node x="0.0" y="126.0">creational.factorymethod.Car</node>
-            <node x="256.0" y="271.0">creational.factorymethod.FactoryMethodClient</node>
-            <node x="195.0" y="0.0">creational.factorymethod.Vehicle</node>
-            <node x="0.0" y="271.0">creational.factorymethod.VehicleFactory</node>
-            <node x="390.0" y="126.0">creational.factorymethod.Moto</node>
-            <node x="0.0" y="369.0">creational.factorymethod.VehicleTypeNotFoundException</node>
-            <node x="195.0" y="126.0">creational.factorymethod.Truck</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="creational.factorymethod.Truck" target="creational.factorymethod.Vehicle">
-              <point x="0.0" y="-50.0" />
-              <point x="0.0" y="38.0" />
-            </edge>
-            <edge source="creational.factorymethod.Car" target="creational.factorymethod.Vehicle">
-              <point x="0.0" y="-50.0" />
-              <point x="87.5" y="101.0" />
-              <point x="224.16666666666666" y="101.0" />
-              <point x="-58.33333333333334" y="38.0" />
-            </edge>
-            <edge source="creational.factorymethod.Moto" target="creational.factorymethod.Vehicle">
-              <point x="0.0" y="-50.0" />
-              <point x="477.5" y="101.0" />
-              <point x="340.83333333333337" y="101.0" />
-              <point x="58.33333333333337" y="38.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-158.0" y="-2.0" />
-          <SelectedNodes>
-            <node>creational.factorymethod.FactoryMethodClient</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/factorymethod/VehicleFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/observer/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/observer/ObserverClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/observer/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/strategy/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/strategy/PaymentStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/behavioral.strategy.PaymentStrategy">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>behavioral.strategy.PaymentStrategy</OriginalElement>
-          <nodes>
-            <node x="279.0" y="23.5">behavioral.strategy.PaymentStrategy</node>
-            <node x="624.75" y="0.0">behavioral.strategy.Item</node>
-            <node x="0.0" y="173.0">behavioral.strategy.CashPayment</node>
-            <node x="507.0" y="150.5">behavioral.strategy.Order</node>
-            <node x="215.0" y="150.0">behavioral.strategy.CardPayment</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="behavioral.strategy.Order" target="behavioral.strategy.PaymentStrategy">
-              <point x="-69.75" y="-73.0" />
-              <point x="576.75" y="125.0" />
-              <point x="399.0" y="125.0" />
-              <point x="48.0" y="26.5" />
-            </edge>
-            <edge source="behavioral.strategy.CashPayment" target="behavioral.strategy.PaymentStrategy">
-              <point x="0.0" y="-50.5" />
-              <point x="97.5" y="125.0" />
-              <point x="303.0" y="125.0" />
-              <point x="-48.0" y="26.5" />
-            </edge>
-            <edge source="behavioral.strategy.CardPayment" target="behavioral.strategy.PaymentStrategy">
-              <point x="0.0" y="-73.5" />
-              <point x="0.0" y="26.5" />
-            </edge>
-            <edge source="behavioral.strategy.Order" target="behavioral.strategy.Item">
-              <point x="69.75" y="-73.0" />
-              <point x="0.0" y="50.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-79.0" y="-64.0" />
-          <SelectedNodes>
-            <node>behavioral.strategy.PaymentStrategy</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/memento/memento.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>behavioral.memento.MementoClient</OriginalElement>
-          <nodes>
-            <node x="0.0" y="361.0">behavioral.memento.RecoveryImage</node>
-            <node x="245.0" y="361.0">behavioral.memento.MementoClient</node>
-            <node x="0.0" y="192.0">behavioral.memento.RecoveryTool</node>
-            <node x="0.0" y="0.0">behavioral.memento.OS</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.4000000000000001" x="-84.0" y="50.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/memento/RecoveryTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="18" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/strategy/CashPayment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/prototype/MachineImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/memento/MementoClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/memento/RecoveryImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/memento/OS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/strategy/CardPayment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/chainofresponsibility/chain.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>behavioral.chainofresponsibility.ChainClient</OriginalElement>
-          <nodes>
-            <node x="25.0" y="198.0">behavioral.chainofresponsibility.ChainClient</node>
-            <node x="0.0" y="0.0">behavioral.chainofresponsibility.CashDispenser</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="behavioral.chainofresponsibility.ChainClient" target="behavioral.chainofresponsibility.CashDispenser">
-              <point x="-43.0" y="-26.5" />
-              <point x="68.0" y="173.0" />
-              <point x="55.5" y="173.0" />
-              <point x="-55.5" y="74.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-370.0" y="-87.0" />
-          <SelectedNodes>
-            <node>behavioral.chainofresponsibility.ChainClient</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/chainofresponsibility/ChainClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/visitor/Visitable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/visitor/TaxVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="e#522#523#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/visitor/Visitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/visitor/DiscountVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="50" selection-start-line="8" selection-start-column="8" selection-end-line="10" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/chainofresponsibility/CashDispenser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" selection-start-line="11" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/composite/Composite.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>structural.composite.Box</OriginalElement>
-          <nodes>
-            <node x="0.0" y="137.5">structural.composite.Product</node>
-            <node x="163.0" y="103.0">structural.composite.Box</node>
-            <node x="0.0" y="318.0">structural.composite.CompositeClient</node>
-            <node x="88.75" y="0.0">structural.composite.Item</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="structural.composite.Product" target="structural.composite.Item">
-              <point x="0.0" y="-50.5" />
-              <point x="71.5" y="78.0" />
-              <point x="124.5" y="78.0" />
-              <point x="-35.75" y="26.5" />
-            </edge>
-            <edge source="structural.composite.Box" target="structural.composite.Item">
-              <point x="0.0" y="-85.0" />
-              <point x="249.0" y="78.0" />
-              <point x="196.0" y="78.0" />
-              <point x="35.75" y="26.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-321.0" y="128.0" />
-          <SelectedNodes>
-            <node>structural.composite.Box</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/composite/CompositeClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/flyweight/Flyweight.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>structural.flyweight.FlyWeightClient</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">structural.flyweight.Vehicle</node>
-            <node x="335.0" y="0.0">structural.flyweight.FlyWeightClient</node>
-            <node x="0.0" y="308.0">structural.flyweight.VehicleFactory</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.884765625" x="-42.0" y="54.0" />
-          <SelectedNodes>
-            <node>structural.flyweight.FlyWeightClient</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/flyweight/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/flyweight/FlyWeightClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/flyweight/VehicleFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/prototype/PrototypeClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/interpreter/InterpreterClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/interpreter/MultiplyExp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/interpreter/DivideExp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/interpreter/AddExp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/interpreter/Number.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/interpreter/Exp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/RealServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/ProxyServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/singleton/holder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/singleton/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/singleton/eager/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/singleton/enumbase/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/singleton/holder/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/builder/BuilderClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/builder/inner/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/chainofresponsibility2/ChainMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioral/chainofresponsibility2/Filter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/adapter2/AdapterForExternalLibrary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/creational/builder/inner/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/bridge/bridge.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>structural.bridge.Blue</OriginalElement>
-          <nodes>
-            <node x="0.0" y="474.0">structural.bridge.BridgeClient</node>
-            <node x="168.5" y="0.0">structural.bridge.Shape</node>
-            <node x="183.0" y="273.0">structural.bridge.Color</node>
-            <node x="366.0" y="376.0">structural.bridge.Blue</node>
-            <node x="332.0" y="151.0">structural.bridge.Rectangle</node>
-            <node x="183.0" y="376.0">structural.bridge.Green</node>
-            <node x="0.0" y="376.0">structural.bridge.Red</node>
-            <node x="170.0" y="151.0">structural.bridge.Circle</node>
-            <node x="0.0" y="151.0">structural.bridge.Square</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="structural.bridge.Red" target="structural.bridge.Color">
-              <point x="0.0" y="-26.5" />
-              <point x="81.5" y="351.0" />
-              <point x="210.16666666666666" y="351.0" />
-              <point x="-54.33333333333334" y="26.5" />
-            </edge>
-            <edge source="structural.bridge.Rectangle" target="structural.bridge.Shape">
-              <point x="0.0" y="-38.5" />
-              <point x="414.5" y="126.0" />
-              <point x="289.33333333333337" y="126.0" />
-              <point x="48.33333333333337" y="50.5" />
-            </edge>
-            <edge source="structural.bridge.Square" target="structural.bridge.Shape">
-              <point x="0.0" y="-38.5" />
-              <point x="75.0" y="126.0" />
-              <point x="192.66666666666666" y="126.0" />
-              <point x="-48.33333333333334" y="50.5" />
-            </edge>
-            <edge source="structural.bridge.Green" target="structural.bridge.Color">
-              <point x="0.0" y="-26.5" />
-              <point x="0.0" y="26.5" />
-            </edge>
-            <edge source="structural.bridge.Circle" target="structural.bridge.Shape">
-              <point x="0.0" y="-38.5" />
-              <point x="0.0" y="50.5" />
-            </edge>
-            <edge source="structural.bridge.Blue" target="structural.bridge.Color">
-              <point x="0.0" y="-26.5" />
-              <point x="447.5" y="351.0" />
-              <point x="318.83333333333337" y="351.0" />
-              <point x="54.33333333333337" y="26.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0095541401273882" x="350.6772712458044" y="250.039384313254" />
-          <SelectedNodes>
-            <node>structural.bridge.Blue</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

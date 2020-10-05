@@ -11,7 +11,7 @@ public class MeatPizza extends Pizza {
         System.out.println("Added meat pizza toppings");
     }
 
-    protected void cook() {
-        System.out.println("Cooked for 15 minutes");
-    }
+//    protected void cook() {
+//        System.out.println("Cooked for 15 minutes");
+//    }
 }

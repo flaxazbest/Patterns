@@ -10,11 +10,11 @@ public abstract class Pizza {
     }
 
     protected void cook() {
-        System.out.println("Cooked for 10 minutes");
+        System.out.println("Cooked for 11 minutes");
     }
 
     private void selectCrust() {
-        System.out.println("Selected default crush");
+        System.out.println("Selected special crush");
     }
 
     protected abstract void addIngredients();

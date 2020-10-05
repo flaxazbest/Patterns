@@ -16,6 +16,10 @@ public class TemplateMethodClient {
         Pizza pizza1 = new CheesePizza();
         pizza1.preparePizza();
 
+        System.out.println();
+        System.out.println();
+        System.out.println();
+
         System.out.println("nPreparing a meat pizza");
         Pizza pizza2 = new MeatPizza();
         pizza2.preparePizza();
